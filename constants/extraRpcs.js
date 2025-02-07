@@ -325,6 +325,11 @@ export const extraRpcs = {
       "https://eth-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
       //"http://18.211.207.34:8545",
       "https://main-light.eth.linkpool.io",
+      { 
+        url: "http://52.228.79.251:2600tx",
+        tracking: "yes",
+        trackingDetails: privacyStatement.gateway,
+      },
       {
         url: "https://rpc.eth.gateway.fm",
         tracking: "yes",
